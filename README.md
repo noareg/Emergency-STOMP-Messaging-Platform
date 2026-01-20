@@ -30,8 +30,8 @@ Developed as part of the SPL course at Ben-Gurion University.
 ### 🔨 **Server Setup (Java)**
 1. Compile the server: mvn compile
 2. Run the server: 
-   - For Thread-Per-Client (TPC) mode:  mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> tpc"
-   - For Reactor mode: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> reactor"
+   - For Thread-Per-Client (TPC) mode:  mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} tpc"
+   - For Reactor mode: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} reactor"
 
 ### 💻 **Client Setup (C++)**
 1. Build the client: make
